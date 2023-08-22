@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="{{ asset('assets/img/logo_situbondo.png') }}" rel="icon">
-  <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+  {{-- <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon"> --}}
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -88,7 +88,7 @@
           </li>
           <li><a class="nav-link scrollto" href="{{ url('regulasi') }}" >Regulasi</a></li>
           <li><a class="nav-link scrollto" href="{{ url('knowledge') }}">Pengetahuan Pemkab Situbondo</a></li>
-          <li><a class="nav-link scrollto" href="index.html#contact">Berita</a></li>
+          <li><a class="nav-link scrollto" href="#">Berita</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
