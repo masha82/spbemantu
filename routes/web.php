@@ -24,3 +24,4 @@ Auth::routes(['register' => false]);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('regulasi', \App\Http\Controllers\RegulasiController::class);
 Route::resource('knowledge', \App\Http\Controllers\PengetahuanController::class);
+Route::resource('policy', \App\Http\Controllers\KebijakanController::class);

@@ -80,7 +80,7 @@
           <li><a class="nav-link scrollto" href="index.html#about">Tentang SPBE</a></li>
           <li class="dropdown"><a href="index.html#services">Domain SPBE<i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">Kebijakan SPBE</a></li>
+              <li><a href="{{ url('policy') }}">Kebijakan SPBE</a></li>
               <li><a href="#">Tata Kelola SPBE</a></li>
               <li><a href="#">Manajemen SPBE</a></li>
               <li><a href="#">Layanan SPBE</a></li>
@@ -115,7 +115,6 @@
 
     <div class="footer-legal text-center">
       <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div class="copyright">
             Copyright &copy; <strong><span>Dinas Kominfo Kabupaten Situbondo</span></strong>

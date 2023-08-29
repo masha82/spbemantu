@@ -14,7 +14,7 @@ class KebijakanController extends Controller
      */
     public function index()
     {
-        //
+        return view('kebijakan');
     }
 
     /**
