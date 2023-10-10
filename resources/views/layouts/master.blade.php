@@ -80,7 +80,7 @@
           <li><a class="nav-link scrollto" href="index.html#about">Tentang SPBE</a></li>
           <li class="dropdown"><a href="index.html#services">Domain SPBE<i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="{{ url('policy') }}">Kebijakan SPBE</a></li>
+              <li><a href="{{ url('kebijakan') }}">Kebijakan SPBE</a></li>
               <li><a href="#">Tata Kelola SPBE</a></li>
               <li><a href="#">Manajemen SPBE</a></li>
               <li><a href="#">Layanan SPBE</a></li>

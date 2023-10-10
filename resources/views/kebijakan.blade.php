@@ -116,7 +116,7 @@
             var table = $('#myTable').DataTable({
                 processing: true,
                 serverSide: true,
-                ajax: "{{ route('policy.index') }}",
+                ajax: "{{ route('kebijakan.index') }}",
                 columns: [{
                     data: 'nomor',
                     name: 'nomor'
